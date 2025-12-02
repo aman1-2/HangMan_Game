@@ -16,9 +16,11 @@ function TextInputFormContainer() {
         //Making a check
         if(value) {
             //If we have something valid in value then we redirect to play-game page.
-            setTimeout(() => {
-                navigate('/game');
-            }, 5000);
+            // setTimeout(() => {
+            //     navigate(`/game?text=${value}`);
+            // }, 5000);
+
+            navigate(`/game`, {state: {wordSelected: value}});
         }
     }
 
