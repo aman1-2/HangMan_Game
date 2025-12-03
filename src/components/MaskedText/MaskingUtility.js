@@ -9,6 +9,7 @@
  * and can i say this string is in the same format in which we have in our Hangman Game. 
  */
 export function getMaskedString(originalWord, guessedLetters) {
+    console.log("guessedLetters: ", guessedLetters)
     guessedLetters = guessedLetters.map((letter) => letter.toUpperCase()); // ['h', 'M', 'E'] -> ['H', 'M', 'E']
     
     //const guessedLettersSet = new Set (guessedLetters); // Creation of set will help us in faster searching. Can be done without sets as well for right now
