@@ -4,11 +4,12 @@ import TextInput from './components/TextInput/TextInput';
 import TextInputFormContainer from './components/TextInputForm/TextInputFormContanier';
 import StartGame from './pages/startGame';
 import PlayGame from './pages/playGame';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Routes>
-      <Route path='/' element = {<div>Home Page</div>}></Route>
+      <Route path='/' element = {<Home></Home>}></Route>
       <Route path='/start' element = {<StartGame></StartGame>}></Route>
       <Route path='/game' element = {<PlayGame></PlayGame>}></Route>
     </Routes>
