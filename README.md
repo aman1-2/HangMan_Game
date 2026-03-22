@@ -1,16 +1,11 @@
-# React + Vite
+## Home-Page
+<img width="959" height="419" alt="{1FC32A3A-D7DD-45BF-A641-33D14DA07139}" src="https://github.com/user-attachments/assets/9fc26fad-956e-4945-9540-628212a3a72a" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Start-Game-Page (Hide Toggling)
+<img width="851" height="292" alt="{9DABF814-6033-43AF-8CA9-A1A778AC988C}" src="https://github.com/user-attachments/assets/1a77c68b-1cdb-4c84-9aa2-46e99552e57c" />
 
-Currently, two official plugins are available:
+## Start-Game-Page (Show Toggling)
+<img width="960" height="280" alt="{58491DAF-F0B0-4A62-8163-083FFE5072C0}" src="https://github.com/user-attachments/assets/8beff22c-5bc6-4d0f-9f37-9f0bb85863f4" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Play-Game-Page
+<img width="1916" height="892" alt="image" src="https://github.com/user-attachments/assets/9d3b568a-a490-40d2-8fa5-12d6029eac17" />
