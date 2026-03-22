@@ -6,7 +6,7 @@ function TextInputForm({inputType, handleFormSubmit, handleTextInputChange , han
         <form onSubmit={handleFormSubmit}>
             <div>
                 <TextInput 
-                    type= { inputType }
+                    type={ inputType }
                     label="Enter a Word or a Phrase"
                     placeholder="Enter Your Word or Phrase Here...."
                     onChangeHandler={handleTextInputChange}
@@ -14,16 +14,21 @@ function TextInputForm({inputType, handleFormSubmit, handleTextInputChange , han
             </div>
 
             <div>
-                <Button styleType="Warning" 
-                text= { inputType === "password" ? "Show" : "Hide"} 
-                onClickHandler={handleShowHideClick}/>
+                <Button 
+                    type="button"
+                    styleType="Warning" 
+                    text= { inputType === "password" ? "Show" : "Hide"} 
+                    onClickHandler={handleShowHideClick}
+                />
             </div>
 
             <div>
-                <Button type="submit" 
-                styleType="Primary" 
-                text="Submit" 
-                onClickHandler={handleFormSubmit}/>
+                <Button
+                    type="submit"
+                    styleType="Primary" 
+                    text="Submit" 
+                    onClickHandler={handleFormSubmit}
+                />
             </div>
         </form>
     );

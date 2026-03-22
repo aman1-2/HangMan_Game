@@ -25,8 +25,7 @@ function TextInputFormContainer() {
     }
 
     function handleTextInputChange(event) {
-        console.log("Text Input Change");
-        console.log(event.target.value);
+        console.log("Text Input Change",event.target.value);
         setValue(event.target.value);
     }
 

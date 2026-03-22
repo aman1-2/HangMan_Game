@@ -5,7 +5,7 @@
  * Ex: originalWord: HUMBLE
  * guessedLetters: ['H', 'M', 'E']
  * 
- * return -> Thi function would return you a string like this where we have H _ M _  _ E . This string will be returned
+ * return -> This function would return you a string like this where we have H _ M _  _ E . This string will be returned
  * and can i say this string is in the same format in which we have in our Hangman Game. 
  */
 export function getMaskedString(originalWord, guessedLetters) {
